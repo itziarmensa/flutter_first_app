@@ -1,0 +1,15 @@
+# En este archivo, se determina cuán estricto debe ser Flutter a la hora de analizar tu código. 
+# Dado que esta es tu primera incursión en Flutter, le dirás al analizador que se lo tome con calma. 
+# Podrás ajustar esto más adelante. De hecho, a medida que te acerques al momento de publicar una app de 
+# producción real, seguramente querrás que el analizador sea más estricto que esto.
+
+include: package:flutter_lints/flutter.yaml
+
+linter:
+  rules:
+    prefer_const_constructors: false
+    prefer_final_fields: false
+    use_key_in_widget_constructors: false
+    prefer_const_literals_to_create_immutables: false
+    prefer_const_constructors_in_immutables: false
+    avoid_print: false
